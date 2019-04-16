@@ -3,7 +3,7 @@
 
 1、用UML绘制出三种工厂模式的类结构图。
 
-https://github.com/kbslan/gupaolearning/tree/master/day01_factory/src/main/resources/statics
+https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/resources/design_pattern/factory_pattern
 
 2、深刻理解产品族和产品等级结构之间的关系。
 
