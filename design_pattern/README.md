@@ -1,13 +1,7 @@
-# 工厂设计模式
+## 经典框架中常见的设计模式
 
-作业内容
+### 1. [工厂设计模式](https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/java/com/gupaoedu/vip/pattren/factory)
 
-1、用UML绘制出三种工厂模式的类结构图。
+#### 1.1 [工厂模式作业](https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/resources/design_pattern/factory_pattern)
 
-https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/resources/design_pattern/factory_pattern
-
-2、深刻理解产品族和产品等级结构之间的关系。
-
-3、自主完成三种工厂模式的代码实现，理解简单工厂、工厂方法和抽象工厂的区别。
-
-三种方式的工厂接口都列举了其优点和缺点
+### 2. [单例模式]()
