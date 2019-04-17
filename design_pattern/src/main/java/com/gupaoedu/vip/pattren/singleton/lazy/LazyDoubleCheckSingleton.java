@@ -20,7 +20,10 @@ public class LazyDoubleCheckSingleton {
     private volatile static LazyDoubleCheckSingleton lazy = null;
 
     private LazyDoubleCheckSingleton(){
-
+        //防止反射破坏单例
+        if(lazy != null){
+            throw  new RuntimeException("不允许创建多个实例");
+        }
     }
 
     public static LazyDoubleCheckSingleton getInstance(){
