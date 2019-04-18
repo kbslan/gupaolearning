@@ -12,7 +12,7 @@
 ###### 1.2 工厂方法模式
 ###### 1.3 抽象工厂模式
 
-### 2. [单例模式]()
+### 2. [单例模式](https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/java/com/gupaoedu/vip/pattren/singleton)
 
 ###### 2.1 饿汉式单例 - 在单例类首次加载时就创建实例（缺点：浪费内存空间）
 ###### 2.2 懒汉式单例 - 被外部类调用时才创建实例
@@ -33,4 +33,22 @@
 缺点：
 * 没有接口，扩展困难
 * 如果要扩展单例对象，只有修改代码，不符合开闭原则
+
+### 3. [原型模式](https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/java/com/gupaoedu/vip/pattren/prototype)
+
+#### 3.1 原型模式快速构建对象的方法总结：
+1. 简单工厂将getter、setter封装到某个方法中
+2. JDK提供的实现Cloneable接口，实现快速复制
+* 深克隆（深拷贝）
+* 浅克隆（浅拷贝）
+
+#### 3.2 原型模式优点：
+1. 原型模式性能比直接new一个对象性能高
+2. 简化了创建过程
+
+#### 3.2 原型模式缺点：
+1. 必须配备克隆或者可拷贝的方法
+2. 对克隆复杂对象或者对克隆出的对象进行复杂改造时，容易带来风险
+3. 深克隆、浅克隆要运用得当
+
 
