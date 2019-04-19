@@ -14,6 +14,8 @@
 
 ### 2. [单例模式](https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/java/com/gupaoedu/vip/pattren/singleton)
 
+#### [单例模式作业](https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/resources/design_pattern/singleton_pattern)
+
 ##### 2.1 饿汉式单例 - 在单例类首次加载时就创建实例（缺点：浪费内存空间）
 ##### 2.2 懒汉式单例 - 被外部类调用时才创建实例
 ##### 2.3 注册式单例 - 将每一个实例都缓存到统一的容器中，使用唯一标识获取单例
@@ -35,6 +37,8 @@
 * 如果要扩展单例对象，只有修改代码，不符合开闭原则
 
 ### 3. [原型模式](https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/java/com/gupaoedu/vip/pattren/prototype)
+
+#### [原型模式作业](https://github.com/kbslan/gupaolearning/tree/master/design_pattern/src/main/resources/design_pattern/prototype_pattern)
 
 ##### 3.1 原型模式快速构建对象的方法总结：
 1. 简单工厂将getter、setter封装到某个方法中
